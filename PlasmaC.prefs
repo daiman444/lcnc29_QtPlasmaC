@@ -1,6 +1,6 @@
 [PLASMA_PARAMETERS]
-Arc Voltage Offset = 0.000
-Arc Voltage Scale = 1.000000
+Arc Voltage Offset = 1562.500
+Arc Voltage Scale = 0.427141
 Setup Feed Rate = 1200.0
 Arc Fail Timeout = 3
 Arc OK High = 250
@@ -45,8 +45,8 @@ Run from line = True
 Tool tips = True
 Exit warning = True
 Exit warning text = 
-Preview cone size = 0.5
-Preview grid size = 0.0
+Preview cone size = 1.0
+Preview grid size = 100.0
 T view zoom scale = 1.0
 Override jog inhibit via Z+ = False
 Custom style = None
@@ -109,10 +109,10 @@ Preview = #000000
 
 [ENABLE_OPTIONS]
 THC enable = True
-Corner lock enable = True
+Corner lock enable = False
 Void lock enable = False
 Use auto volts = True
-Ohmic probe enable = False
+Ohmic probe enable = True
 THC auto = False
 
 [CAMERA_OFFSET]
@@ -131,18 +131,18 @@ Cut length = 0
 Pierce count = 0
 
 [DEFAULT MATERIAL]
-Kerf width = 0.0
-Pierce height = 3.0
-Pierce delay = 0.0
-Puddle jump height = 0.0
-Puddle jump delay = 0.0
-Cut height = 1.0
-Cut feed rate = 4000.0
-Cut amps = 45.0
-Cut volts = 99.0
-Pause at end = 0.0
-Gas pressure = 0.0
-Cut mode = 1.0
+Kerf width = 1
+Pierce height = 3
+Pierce delay = 0
+Puddle jump height = 0
+Puddle jump delay = 0
+Cut height = 1
+Cut feed rate = 4000
+Cut amps = 45
+Cut volts = 99
+Pause at end = 0
+Gas pressure = 0
+Cut mode = 1
 
 [LASER_OFFSET]
 X axis = 0
@@ -162,4 +162,8 @@ Leadout = 0
 Hole diameter = 32
 Hole speed = 60
 Grid Size = 0
+
+[SINGLE CUT]
+X length = 0.0
+Y length = 0.0
 

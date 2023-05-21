@@ -15,8 +15,8 @@ MachineLogDialog_play_sound = True
 MachineLogDialog_sound_type = READY
 
 [BOOK_KEEPING]
-last_loaded_directory = /home/ddd/linuxcnc/nc_files/examples
-RecentPath_0 = None
+last_loaded_directory = /home/ddd/linuxcnc/nc_files
+RecentPath_0 = /home/ddd/linuxcnc/nc_files/TEST_Раскосы ферм-01 (1-я копия).ngc
 style_QSS_Path = DEFAULT
 
 [SCREEN_OPTIONS]
@@ -27,7 +27,7 @@ desktop_notify = True
 notify_max_msgs = 10
 shutdown_check = False
 sound_player_on = False
-MainWindow-geometry = 329 113 1386 905
+MainWindow-geometry = 0 25 1920 1055
 
 [MCH_MSG_OPTIONS]
 mchnMsg_play_sound = True
